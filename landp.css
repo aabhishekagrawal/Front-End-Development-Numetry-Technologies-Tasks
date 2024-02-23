@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+
+}
+nav{
+	background: #f49f0a;
+	height: 80px;
+	width:100%;
+	box-shadow: 1px 1px gray;
+}
+label.logo{
+	color: white;
+	font-family: Maiandra GD;
+	font-size: 40px;
+	line-height: 80px;
+	padding: 0 90px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin:0 18px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	font-family: High Tower Text;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a.active,a:hover{
+	background:#00a6a6;
+	transition: .8s;
+	padding:10px;
+	box-shadow: 1px 2px 1px 1px gray;
+	border-radius:50px;
+	text-decoration: none;
+}
